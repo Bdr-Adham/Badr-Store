@@ -1,0 +1,54 @@
+
+.title-text .red{
+    color: red;
+}
+.title-text .brown{
+    color: rgba(145, 42, 42, 0.87);
+}
+.title-text .green{
+    color: rgb(33, 185, 13);
+}
+#color{
+    font-size: 150px;
+}
+#clothes{
+    font-size: 75px;
+}
+.title-text {
+    margin-top: 200px;
+}
+#colored{
+    font-size: 120px;
+}
+
+@media (min-width:301px) and (max-width:400px){
+    .title-text h1 {
+        font-size: 70px;
+    }
+    .title-text .clothes{
+        font-size:25 ;   
+    }
+    #clothes{
+        font-size:25 ;  
+    }
+    #colored {
+        font-size: 43px;
+    }
+    #color {
+        font-size: 100px;
+    }
+    .body2-grid {
+        margin-top: 40px;
+    }
+}
+@media (min-width:401px) and (max-width:800px){
+    .title-text h1{
+        font-size: 100px;
+    }
+    #clothes{
+        font-size: 100px;
+    }
+    #colored {
+        font-size: 64px;
+    }
+}

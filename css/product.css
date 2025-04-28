@@ -1,0 +1,619 @@
+main{
+    margin-top: 50px;
+}
+main .b-1 .title h1{
+    font-family: 'Sometype Mono', monospace;
+    text-align: center;
+    padding-bottom: 50px;
+}
+main .product-grid .details-2 h1{
+    font-family: 'Rubik', sans-serif;
+}
+main .b-1 .product-grid{
+    display: grid;
+    grid-template-columns: auto auto ; 
+    column-gap: 200px;
+}
+main .b-1 .product-grid img{
+    width: 450px;
+    border-radius: 20px;
+}
+main .item-1{
+    grid-row: 1 /span 2;
+}
+main .product-grid .details-1{
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+}
+main .product-grid .details-1 .text{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+main .product-grid .details-1,.details-2{
+    width: 400px;
+    height: 300px;
+    margin-left: -150px;
+}
+main .product-grid .details-2{
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    grid-column: 2;
+    margin-top: -275px;
+    height: 220px;
+}
+main .product-grid .details-2 h1{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+main .product-grid .details-2 .text{
+    padding-top: 15px;
+    margin-left: 25px;
+}
+main .product-grid .details-2 .text p{
+    display: inline;
+}
+main .product-grid .details-2 .text .ttl{
+    float: right;
+    margin-right: 20px;
+}
+main .product-grid .details-2 button{
+    background-color: #e94560;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 350px;
+    height: 50px;
+}
+main .product-grid .details-2 .copy{
+    text-align: center;
+    margin-top: 30px;
+}
+main .product-grid .details-2 .copy input{
+    width: 320px;
+    height: 25px;
+    font-size: 15px;
+}
+main .product-grid .details-2 .copy .copy-b{
+    background-color: #e94560;
+    border-radius: 2px;
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+
+}
+main .product-grid .details-2 .copy .copy-b span{
+    font-size: 20px;
+    color: white;
+}
+main .product-grid .details-2 button p{
+    display: inline;
+    font-size: 23px;
+    color: white;
+}
+main .product-grid .details-2 a{
+    text-decoration: none;
+}
+main .product-grid .details-2 button i{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+}
+main .product-grid .details-2 button{
+    cursor: pointer;
+}
+.but{
+    text-align: center;
+}
+/*! body-2  */
+.b-2 .img img{
+    width: 200px;
+    border-radius: 25px;
+}
+.b-2-title .title{
+    font-size: 25px;
+    margin-left: -650px;
+    margin-top: 100px;
+    text-align: center;
+}
+.b-2{
+    text-align: center;
+    margin-top: 25px;
+}
+.b-3{
+    margin-left: 282px;
+    margin-top: 150px;
+}
+.b-3 .title{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.b-3 .text{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+.b-3 .text h1{
+    display: inline;
+    font-size: 20px;
+}
+.b-4 .no-rev{
+    color: #e94560;
+    text-align: center;
+    margin-top: 150px;
+}
+.b-4 .rev{
+    display: none;
+}
+                            /* slideshow */
+#product2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    width: 550px;
+    border-radius: 20px;
+}
+#product2 img{
+border-radius: 10px;
+}
+#product1 {
+    max-width: 1000px;
+    position: relative;
+    width: 550px    ;
+    border-radius: 20px;
+    margin-left: 49px;
+}
+#product1 img{
+    border-radius: 10px;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+    background-color:#e94560 ;
+    color:#f1f1f1 ;
+}
+/*!media 1400  */
+@media (min-width:1401px) and (max-width:1500px){
+    .b-3{
+        margin-left: 216px;
+    }
+}
+/*!media 1300  */
+@media (min-width:1301px) and (max-width:1400px){
+    .b-3{
+        margin-left: 160px;
+    }
+}
+/*!media 1200  */
+@media (min-width:1201px) and (max-width:1300px){
+    .b-3{
+        margin-left: 75px;
+    }
+}
+/*!media 1100  */
+@media (min-width:1100px) and (max-width:1200px){
+    .b-3{
+        margin-left: 30px;
+    }
+    
+}
+/*!media 1000  */
+@media (min-width:1000px) and (max-width:1099px){
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    .b-2 .img img {
+        width: 169px;
+    }
+    .b-3 {
+        margin-left: 75px;
+    }
+    .b-2 i {
+        top: -78px;
+    }
+    .b-2-title .title {
+        margin-left: -500px;
+    }
+    #product1 {
+        margin-left: 0px;
+    }
+    main .product-grid .details-1, .details-2 {
+        margin-left: -40px;
+    }
+}
+/*!media 900  */
+@media (min-width:900px) and (max-width:999px){
+    main .b-1 .product-grid img {
+        width: 360px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    .b-2 .img img {
+        width: 151px;
+    }
+    .b-3 {
+        margin-left: 75px;
+    }
+    .b-2 i {
+        top: -60px;
+    }   
+    main .product-grid .details-1{
+        height: 300px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: -176px;
+    }
+    .b-2-title .title {
+        margin-left: -400px;
+    }
+    #product1 {
+        width: 450px;
+        margin-left: -10px;
+    }
+    main .product-grid .details-1, .details-2 {
+        margin-left: -35px;
+    }
+}
+/*!media 800*/
+@media (min-width:800px) and (max-width:899px){  
+    main .b-1 .product-grid img {
+        width: 333px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    main .product-grid .details-1, .details-2 {
+        width: 350px;
+        margin-left: 51px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: 10px;
+    }
+    main .product-grid .details-1{
+        height: 310px;
+    }
+    main .product-grid .details-2 button {
+        width: 309px;
+    }
+    .b-2 .img img {
+        width: 127px;
+    }
+    .b-3 {
+        margin-left: 30px;
+    }
+    .b-2 i {
+        top: -60px;
+    }
+    .b-2-title .title {
+        margin-left: -350px;
+    }
+    main .product-grid .details-2 .copy input {
+        width: 277px;
+    }
+    main .b-1 .product-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+}
+/*!media 700*/
+@media (min-width:700px) and (max-width:799px){
+    main .b-1 .product-grid img {
+        width: 333px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    main .product-grid .details-1, .details-2 {
+        width: 350px;
+        margin-left: 40px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: 10px;
+    }
+    main .product-grid .details-1{
+        height: 310px;
+    }
+    main .product-grid .details-2 button {
+        width: 283px;
+    }
+    main .product-grid .details-2 button p {
+        font-size: 19px;
+    }
+    .b-2 .img img {
+        width: 150px;
+    }
+    .b-3 {
+        margin-left: 25px;
+    }
+    .b-2 i {
+        top: -60px;
+    }
+    .b-2-title .title {
+        margin-left: -250px;
+    }
+    #product2 {
+        width: 450px;
+    }
+    main .product-grid .details-2 .copy input {
+        width: 277px;
+        height: 21px;
+        margin-top: 20px;
+    }
+    main .b-1 .product-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    #product1 {
+        margin-left: 0px;
+    }
+}
+/*!media 600*/
+@media (min-width:600px) and (max-width:699px){
+    main .b-1 .product-grid img {
+        width: 333px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    main .product-grid .details-1, .details-2 {
+        width: 350px;
+        margin-left: 15px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: 10px;
+    }
+    main .product-grid .details-1{
+        height: 310px;
+    }
+    main .product-grid .details-2 button {
+        width: 209px;
+    }
+    main .product-grid .details-2 button p {
+        font-size: 12px;
+    }
+    main .product-grid .details-2 button i {
+        margin-right: 11px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .b-2 .img img {
+        width: 150px;
+    }
+    .b-3 {
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    .b-2-title .title {
+        margin-left: -150px;
+    }
+    #product2 {
+        width: 400px;
+    }
+    main .product-grid .details-2 .copy input {
+        width: 277px;
+        height: 21px;
+        margin-top: 20px;
+    }
+    main .b-1 .product-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    #product1 {
+        margin-left: 0px;
+    }
+}
+/*!media 500*/
+@media (min-width:500px) and (max-width:599px){
+    main .b-1 .product-grid img {
+        width: 333px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    main .product-grid .details-1, .details-2 {
+        width: 350px;
+        margin-left: 7px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: 10px;
+    }
+    main .product-grid .details-1{
+        height: 310px;
+    }
+    main .product-grid .details-2 button {
+        width: 209px;
+    }
+    main .product-grid .details-2 button p {
+        font-size: 12px;
+    }
+    main .product-grid .details-2 button i {
+        margin-right: 11px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .b-2 .img img {
+        width: 150px;
+    }
+    .b-3 {
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    .b-2-title .title {
+        margin-left: -50px;
+    }
+    #product2{
+        width: 400px;
+    }
+    main .product-grid .details-2 .copy input {
+        width: 277px;
+        height: 21px;
+        margin-top: 20px;
+    }
+    main .b-1 .product-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    #product1 {
+        margin-left: 0px;
+        width: 435px;
+    }
+}
+/*!media 400 */
+@media (min-width:400px) and (max-width:499px){
+    main .b-1 .product-grid img {
+        width: 333px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    main .product-grid .details-1, .details-2 {
+        width: 350px;
+        margin-left: 7px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: 10px;
+    }
+    main .product-grid .details-1{
+        height: 310px;
+    }
+    main .product-grid .details-2 button {
+        width: 209px;
+    }
+    main .product-grid .details-2 button p {
+        font-size: 12px;
+    }
+    main .product-grid .details-2 button i {
+        margin-right: 11px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .b-1{
+        margin-left: -20px;
+    }
+    .b-2 .img img {
+        width: 110px;
+    }
+    .b-3 {
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    .b-2-title .title {
+        margin-left: -150px;
+        font-size: 15px;
+    }
+    #product2 {
+        width: 300px;
+    }
+    main .product-grid .details-2 .copy input {
+        width: 175px;
+        height: 21px;
+        margin-top: 20px;
+    }
+    main .b-1 .product-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    #product1 {
+        margin-left: -18px;
+        width: 350px;
+    }
+}
+/*!media 300*/
+@media (min-width:301px) and (max-width:400px){
+    main .b-1 .product-grid img {
+        width: 333px;
+    }
+    main .b-1 .product-grid {
+        column-gap: 50px;
+    }
+    main .product-grid .details-1, .details-2 {
+        width: 261px;
+        margin-left: 19px;
+    }
+    main .product-grid .details-2{
+        height: 215px;
+        margin-top: 10px;
+    }
+    main .product-grid .details-1{
+        height: 310px;
+    }
+    main .product-grid .details-2 button {
+        width: 209px;
+    }
+    main .product-grid .details-2 button p {
+        font-size: 12px;
+    }
+    main .product-grid .details-2 button i {
+        margin-right: 11px;
+        margin-top: 2px;
+        font-size: 15px;
+    }
+    .b-1{
+        margin-left: -20px;
+    }
+    .b-2 .img img {
+        width: 110px;
+    }
+    .b-3 {
+        margin-left: 25px;
+        margin-top: 100px;
+    }
+    .b-2-title .title {
+        margin-left: -94px;
+        font-size: 11px;
+    }
+    #product2 {
+        width: 266px;
+    }
+    main .product-grid .details-2 .copy input {
+        width: 175px;
+        height: 21px;
+        margin-top: 20px;
+    }
+    main .b-1 .product-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    #product1 {
+        margin-left: 20px;
+        width: 275px;
+    }
+}

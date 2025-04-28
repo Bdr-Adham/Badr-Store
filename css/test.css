@@ -1,0 +1,22 @@
+.categories2 select{
+  background: black;
+  border: white solid;
+  font-size: 19px;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 15px;
+}
+.categories2{
+  margin-left: 150px;
+  float: left;
+  margin-top: 35px;
+}
+ /*from 1100 to 700 */
+@media (min-width:1001px) and (max-width:1100px){
+  .categories2{
+    margin-left: 42px;
+  }
+}
+i{
+  color: red;
+}
