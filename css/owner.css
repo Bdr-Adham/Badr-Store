@@ -198,7 +198,8 @@
     }
     .body .body-text h1 {
         margin-left: 20px;
-        margin-top: 20px;
+        margin-top: 5px;
+        font-size: 13px;
     }
     .social i {
         font-size: 20px;

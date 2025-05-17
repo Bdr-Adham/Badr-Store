@@ -11,7 +11,7 @@ font-family: 'Dai Banna SIL', serif;
 }
                           /* media less than 307*/
 @media  (max-width:300px){
-  .body1-left,.body1-right,.body2,.body4,.payment-grid,header,.categories2,footer,.title-text,.body2-grid,.payment-grid,.title-offer,.payment-grid,.slideshow-container,.body2-grid,.head-of-body,main,.b-2,.b-3,.b-4,.body,.social
+  .body1-left,.body1-right,.body2,.body4,.categories3 , .categories4,.payment-grid,header,.categories2,footer,.title-text,.body2-grid,.payment-grid,.title-offer,.payment-grid,.slideshow-container,.body2-grid,.head-of-body,main,.b-2,.b-3,.b-4,.body,.social
   {
   display: none;
   }

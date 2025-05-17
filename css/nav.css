@@ -66,6 +66,7 @@ header .search h1{
     margin-top: -8px;
     padding-top: 8px;
     padding-left: 15px;
+    color: black;
 }
 header .shopping{
     float: right;
@@ -118,6 +119,19 @@ header .categories select{
   border-radius: 15px;
 }
 .categories3{
+  margin-left: 25px;
+  float: left;
+  margin-top: 35px;
+}
+.categories4 select{
+  background: black;
+  border: white solid;
+  font-size: 19px;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 15px;
+}
+.categories4{
   margin-left: 25px;
   float: left;
   margin-top: 35px;
@@ -581,7 +595,7 @@ footer .text  .left .supp{
         margin-left: 4%;
         column-gap: 3%;
       }
-      .categories2 select{
+      .categories2 select , .categories3 select ,.categories4 select{
         font-size: 21px;
       }
 }
@@ -611,7 +625,7 @@ footer .text  .left .supp{
       header .shopping {
         margin-right: 4%;
       }
-      .categories2 select{
+      .categories2 select , .categories3 select ,.categories4 select{
         font-size: 21px;
       }
       nav ul li a p {
@@ -659,7 +673,7 @@ footer .text  .left .supp{
         font-size: 19px;
         margin-left: 42px;
       }
-      .categories2 select{
+      .categories2 select , .categories3 select ,.categories4 select{
         font-size: 18px;
       }
       .categories2{
@@ -736,7 +750,7 @@ footer .text  .left .supp{
       .categories2{
         margin-left: 42px;
       }
-      .categories2 select{
+      .categories2 select , .categories3 select ,.categories4 select{
         font-size: 15px;
       }
       header .search i {
@@ -830,10 +844,10 @@ footer .text  .left .supp{
         font-size: 14px;
         margin-left: 42px;
       }
-      .categories2{
-        margin-left: 42px;
+      .categories2 , .categories3 , .categories4{
+        margin-left: 5px;
       }
-      .categories2 select{
+      .categories2 select , .categories3 select ,.categories4 select{
         font-size: 13px;
       }
       header .search i {

@@ -5,6 +5,9 @@
 .title-text .t-icon{
     font-size: 20px;
 }
+header .search h1{
+    color: #e94560;
+}
 .title-text h1{
     font-family: 'Young Serif', serif;
 }
