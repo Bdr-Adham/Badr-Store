@@ -71,7 +71,7 @@
 }
 
 .body1-right .right .text p {
-  width: 533px;
+  width: 600px;
   margin-top: 38px;
 }
 
@@ -84,8 +84,9 @@
 
 .body1-right .right .text {
   position: absolute;
-  top: 20px;
+  top: -71px;
   left: 20px;
+  height: 0px;
 }
 
 /* Body2 */
@@ -340,9 +341,9 @@
 /*!media 1500*/
 @media (min-width:1251px)and (max-width:1500px) {
   .body1-right .right .text h1 {
-    margin-top: 110px;
-    font-size: 25px;
-    width: 358px;
+    margin-top: 124px;    
+    font-size: 30px;
+    width: 392px;
   }
   .body4 {
     margin-top: 1110px;
@@ -350,16 +351,19 @@
   .body2 {
     margin-top: 550px;
   }
-  .body1-right .right .text p {
-    width: 302px;
-    margin-top: 38px;
+    .body1-right .right .text{
+    left: -85px;
   }
   .body1-right .right .but {
     position: absolute;
-    bottom: -398px;
-    left: 16px;
+    bottom: -441px;
+    left: -84px;
   }
-  
+    .body1-right .right .text p {
+    font-size: 21px;
+    width: 455px;
+    margin-top: 38px;
+  }
   .body2 .body2-grid .products .first-img {
     height: auto;
   }
@@ -386,21 +390,25 @@
 /*!media 1200*/
 @media (min-width:1201px) and (max-width:1250px) {
   .body1-right .right .text h1 {
-    margin-top: 110px;
-    font-size: 25px;
-    width: 358px;
+    margin-top: 124px;    
+    font-size: 30px;
+    width: 392px;
   }
   .body2 {
     margin-top: 550px;
   }
-  .body1-right .right .text p {
-    width: 302px;
-    margin-top: 38px;
-  }
   .body1-right .right .but {
     position: absolute;
-    bottom: -398px;
-    left: 16px;
+    bottom: -441px;
+    left: -84px;
+  }
+    .body1-right .right .text p {
+    font-size: 21px;
+    width: 455px;
+    margin-top: 38px;
+  }
+  .body1-right .right .text{
+    left: -86px;
   }
   .body2 .body2-grid .products .first-img {
     height: auto;
@@ -441,18 +449,24 @@
   }
 
   .body1-right img {
-    bottom: -292px;
-    right: -171px;
-    width: 147px;
+    bottom: -417px;
+    right: -154px;
+    width: 274px;
   }
-
   .body1-right .right .text h1 {
-    margin-top: 76px;
-    font-size: 35px;
+    margin-top: 124px;    
+    font-size: 30px;
+    width: 392px;
   }
-
   .body1-right .right .but {
+    position: absolute;
     bottom: -441px;
+    left: 18px;
+  }
+    .body1-right .right .text p {
+    font-size: 21px;
+    width: 455px;
+    margin-top: 38px;
   }
 
   .body2 .title {
@@ -528,16 +542,16 @@
     margin-left: 37px;
     margin-top: 20px;
   }
-
-
   .body1-right .right {
     margin-left: 175px;
   }
-
+  .body1-right .right .text {
+    top: -35px;
+  }
   .body1-right img {
-    bottom: -292px;
-    right: -171px;
-    width: 147px;
+    bottom: -319px;
+    right: -180px;
+    width: 191px;
   }
 
   .body1-right .right .text h1 {
@@ -609,6 +623,9 @@
   .last-fotter {
     margin-top: 169px;
   }
+  .body1-right .right .text p {
+  margin-top: 25px;
+}
 }
 
 /*! media 800*/
@@ -624,18 +641,23 @@
   }
 
   .body1-right img {
-    bottom: -292px;
+    bottom: -360px;
     right: -171px;
-    width: 147px;
+    width: 175px;
   }
-
+  .body1-right .right .text {
+    top: -30px;
+  }
+  .body1-right .right .text p {
+    width: 400px;
+  }
   .body1-right .right .text h1 {
     margin-top: 76px;
     font-size: 52px;
   }
 
   .body1-right .right .but {
-    bottom: -441px;
+    bottom: -450px;
   }
 
   .body2 .title {
@@ -720,22 +742,24 @@
   .body1-right .right {
     margin-left: 162px;
   }
-
   .body1-right img {
-    bottom: -372px;
-    right: -58px;
-    width: 147px;
+    bottom: -360px;
+    right: -138px;
+    width: 175px;
+  }
+  .body1-right .right .text {
+    top: -30px;
+  }
+  .body1-right .right .text p {
+    width: 325px;
   }
   .body1-right .right .text h1 {
     margin-top: 76px;
-    font-size: 27px;
+    font-size: 38px;
   }
+
   .body1-right .right .but {
-    bottom: -441px;
-  }
-  .body1-right .right .text p {
-    width: 274px;
-    font-size: 103%;
+    bottom: -450px;
   }
   .body2 .title {
     margin-left: 40px;
@@ -808,34 +832,34 @@
   .body1-left {
     display: grid;
     float: left;
-    margin-left: 21px;
+    margin-left: 30px;
     margin-top: 20px;
   }
-
   .body1-right .right {
     margin-left: 162px;
   }
-
-  .body1-right img {
-    bottom: -372px;
-    right: -58px;
-    width: 147px;
+  .body1-left h1{
+    width: 90px;
   }
   .body4 .left .link {
     margin-left: -10px;
   }
-  .body1-right .right .text h1 {
-    margin-top: 76px;
-    font-size: 27px;
-    width: 368px;
+  .body1-right img {
+    bottom: -350px;
+    right: -105px;
+    width: 146px;
   }
-  .body1-right .right .but {
-    bottom: -441px;
+  .body1-right .right .text {
+    top: -30px;
+    left: -31px;
   }
   .body1-right .right .text p {
-    width: 210px;
-    font-size: 86%;
+    width: 325px;
   }
+  .body1-right .right .text h1 {
+    margin-top: 76px;
+    font-size: 38px;
+  } 
   .body2 .title {
     margin-left: 36px;
   }
@@ -930,9 +954,11 @@
     right: -102px;
     width: 147px;
   }
-
+  .body1-right .right .text{
+    left: 0px;
+  }
   .body1-right .right .text h1 {
-    margin-top: 76px;
+    margin-top: 125px;
     font-size: 27px;
     width: 368px;
   }
@@ -1035,8 +1061,12 @@
   .body1-right .right {
     margin-left: 110px;
   }
+  .body1-right .right .text {
+    top: -18px;
+    left: -8px;
+  }
   .body1-right img {
-    bottom: -372px;
+    bottom: -303px;
     right: -59px;
     width: 147px;
   }
@@ -1050,9 +1080,10 @@
   }
   .body1-right .right .but {
     bottom: -441px;
+    left: -14px;
   }
   .body1-right .right .text p {
-    width: 111px;
+    width: 175px;
     font-size: 67%;
   }
   .body2 .title {
@@ -1152,28 +1183,29 @@
     margin-left: 110px;
   }
   .body1-right img {
-    bottom: -376px;
+    bottom: -431px;
     left: 20%;
     width: 92px;
   }
   .body1-right .right .text h1 {
     margin-top: 76px;
-    font-size: 12px;
-    width: 171px;
+    font-size: 22px;
+    width: 235px;
   }
   .body1-left h1 {
     width: 105px;
   }
   .body1-right .right .but {
-    bottom: -441px;
+    bottom: -490px;
+    left: 11px;
   }
   .body1-right .right .text p {
-    width: 161px;
-    font-size: 73%;
+    width: 220px;
+    font-size: 79%;
   }
   .body1-right .right .text {
-    top: 9px;
-    left: 2px;
+    top: -11px;
+    left: -5px;
   }
   .body2 .title {
     margin-left: 9px;
@@ -1267,7 +1299,7 @@
   }
 }
 /*! media 300*/
-@media (min-width:301px) and (max-width:350px) {
+@media (min-width:301px) and (max-width:349px) {
 
   .body1-left {
     display: grid;
@@ -1275,33 +1307,33 @@
     margin-left: -4px;
     margin-top: 20px;
   }
-
-  .body1-right .right {
-    margin-left: 110px;
-  }
   .body1-right img {
-    bottom: -376px;
+    bottom: -431px;
     left: 20%;
     width: 92px;
   }
   .body1-right .right .text h1 {
     margin-top: 76px;
-    font-size: 12px;
-    width: 171px;
+    font-size: 20px;
+    width: 178px;
+  }
+  .body1-right .right .but {
+    bottom: -490px;
+    left: 11px;
+  }
+  .body1-right .right .text p {
+    width: 170px;
+    font-size: 71%;
+  }
+  .body1-right .right .text {
+    top: -11px;
+    left: -5px;
+  }
+  .body1-right .right {
+    margin-left: 110px;
   }
   .body1-left h1 {
     width: 105px;
-  }
-  .body1-right .right .but {
-    bottom: -441px;
-  }
-  .body1-right .right .text p {
-    width: 161px;
-    font-size: 73%;
-  }
-  .body1-right .right .text {
-    top: 9px;
-    left: 2px;
   }
   .body2 .title {
     margin-left: 9px;

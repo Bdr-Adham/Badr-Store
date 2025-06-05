@@ -202,7 +202,15 @@ footer .text  .left .supp a{
 footer .text  .left .supp{
   margin-top: 10px;
 }
-
+.empty{
+  text-align: center;
+  margin-top: 200px;
+  padding-bottom: 200px;
+  color: #e94560;
+}
+.opacity-0{
+  opacity: 0;
+}
 /*!media 1600*/
 @media (min-width:1251px)and (max-width:1650px){
     header .title h1 {
